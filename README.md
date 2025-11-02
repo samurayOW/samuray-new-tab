@@ -1,6 +1,7 @@
 # Samuray New Tab Extension
 
-A custom new tab page extension for Firefox.
+A custom aesthetic new tab page extension for Firefox.
+![alt text](image.png)
 
 ## Requirements
 
@@ -13,6 +14,7 @@ A custom new tab page extension for Firefox.
 2. Run `npm install`
 3. Run `npm run build`
 4. The built extension will be in the `dist` folder
+5. Create zip-file from inner content of `dist` folder and change its extension from `zip` to `xpi`
 
 ## Development
 

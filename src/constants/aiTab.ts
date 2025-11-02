@@ -4,8 +4,17 @@ import { GiSpermWhale } from "react-icons/gi";
 import { RiPerplexityLine } from "react-icons/ri";
 import { RiGeminiFill } from "react-icons/ri";
 import banner2 from "../assets/banner-2.jpg";
-import { FaBolt, FaCompactDisc, FaTheaterMasks } from "react-icons/fa";
-import { TbCardsFilled, TbHexagonLetterK } from "react-icons/tb";
+import {
+  FaBolt,
+  FaCompactDisc,
+  FaGrinWink,
+  FaTheaterMasks,
+} from "react-icons/fa";
+import {
+  TbCardsFilled,
+  TbHexagonLetterGFilled,
+  TbHexagonLetterK,
+} from "react-icons/tb";
 import { PiStudentDuotone } from "react-icons/pi";
 
 export const aiTab: Tab = {
@@ -71,6 +80,20 @@ export const aiTab: Tab = {
           url: "https://www.krea.ai/app",
           icon: TbHexagonLetterK,
           iconColor: "#fff",
+        },
+        {
+          id: "9",
+          title: "isgen",
+          url: "https://isgen.ai/uk",
+          icon: TbHexagonLetterGFilled,
+          iconColor: "#4b6877",
+        },
+        {
+          id: "10",
+          title: "monika",
+          url: "https://monica.im/uk/bypass-ai/ai-humanizer",
+          icon: FaGrinWink,
+          iconColor: "#5526c1",
         },
       ],
     },

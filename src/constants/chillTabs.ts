@@ -8,13 +8,14 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { GiFlatStar, GiNinjaArmor } from "react-icons/gi";
+import { GiFlatStar, GiKnockedOutStars, GiMeepleCircle } from "react-icons/gi";
 import {
   TbCircleLetterTFilled,
   TbSquareLetterFFilled,
   TbSquareRoundedNumber9Filled,
 } from "react-icons/tb";
 import { IoFootball } from "react-icons/io5";
+import { LuSwords } from "react-icons/lu";
 
 export const chillTab: Tab = {
   name: "chill",
@@ -40,10 +41,10 @@ export const chillTab: Tab = {
         },
         {
           id: "3",
-          title: "jutsu.tv",
-          url: "https://jutsu.tv/user/samuray/",
-          icon: GiNinjaArmor,
-          iconColor: "#44913a",
+          title: "amanogawa",
+          url: "https://amanogawa.space/",
+          icon: GiKnockedOutStars,
+          iconColor: "#3992d6",
         },
         {
           id: "4",
@@ -100,6 +101,13 @@ export const chillTab: Tab = {
           iconColor: "#962745",
         },
         {
+          id: "3a",
+          title: "cosmos",
+          url: "https://www.cosmos.so/home",
+          icon: GiMeepleCircle,
+          iconColor: "#fff",
+        },
+        {
           id: "4",
           title: "twitter",
           url: "https://x.com/home",
@@ -112,6 +120,13 @@ export const chillTab: Tab = {
           url: "https://www.numuki.com/game/bakugan-the-final-brawl/",
           icon: FaDragon,
           iconColor: "#ff0f6f",
+        },
+        {
+          id: "6",
+          title: "yu-gi-oh",
+          url: "https://duelingnexus.com/home",
+          icon: LuSwords,
+          iconColor: "#a749f4",
         },
       ],
     },
